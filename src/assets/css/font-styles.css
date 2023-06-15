@@ -1,0 +1,147 @@
+*{
+    font-family:  sans-serif;
+}
+p {
+    font-size: 11pt;
+}
+.title{
+    font-size: 36pt;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.heading{
+    font-size: 24pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subheading{
+    font-size: 18pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.list-heading{
+    font-size: 14pt;
+}
+
+.book{
+    font-size: 11pt;
+}
+
+.left-txt{
+    text-align: left;
+}
+.center-txt{
+    text-align: center;
+}
+.right-txt{
+    text-align: right;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.extra-small-square-line-height{
+    line-height: 45px;
+}
+
+li{
+    list-style-position: inside;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.camelcase{
+    text-transform:capitalize;
+}
+
+@media only screen and (max-width: 360px){
+    .title{
+        font-size: 24pt;
+    }
+    .heading{
+        font-size: 18pt;
+    }
+
+    .subheading{
+        font-size: 14pt;
+    }
+    .list-heading{
+        font-size: 14pt;
+    }
+    :not(li), :not(.list-item), :not(ol), :not(ul){
+        text-align: center;
+    }
+    li, ol, ul, .list-heading, .form-input{
+        text-align: left !important;
+    }
+        
+    .extra-small-square-line-height{
+        line-height: 50px;
+    }
+
+}
+@media only screen and (min-width: 360px) and (max-width: 450px){
+    .title{
+        font-size: 24pt;
+    }
+    .heading{
+        font-size: 18pt;
+    }
+
+    .subheading{
+        font-size: 14pt;
+    }
+    .list-heading{
+        font-size: 14pt;
+    }
+    :not(li), :not(.list-item), :not(ol), :not(ul){
+        text-align: center;
+    }
+    li, ol, ul, .list-heading , .form-input{
+        text-align: left !important;
+    }        
+    .extra-small-square-line-height{
+        line-height: 50px;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 736px){
+    .title{
+        font-size: 24pt;
+    }
+    .heading{
+        font-size: 18pt;
+    }
+
+    .subheading{
+        font-size: 14pt;
+    }
+    .list-heading{
+        font-size: 14pt;
+    }
+    :not(li), :not(.list-item), :not(ol), :not(ul){
+        text-align: center;
+    }
+    li, ol, ul, .list-heading, .form-input{
+        text-align: left !important;
+    }        
+    .extra-small-square-line-height{
+        line-height: 50px;
+    }
+
+}
+@media only screen and (min-width: 736px) and (max-width: 1200px){
+
+}
+@media only screen and (min-width: 1200px){
+
+}

@@ -1,0 +1,131 @@
+
+/*Backgrounds*/
+.background-bg{
+    background-color: #fbfbfb !important;
+}
+
+.black-bg{
+    background-color: #000 !important;
+}
+
+.white-bg{
+    background-color: #fff !important;
+}
+
+.primary-bg{
+    background-color: #41A9B9 !important;
+}
+
+.secondary-bg{
+    background-color: #bcb1ec !important;
+
+}
+
+.tertiary-bg{
+background-color: #cfcfcf !important;
+}
+
+.alternative-bg{
+background-color: #e4e4e4 !important;
+
+}
+
+.success-bg{
+    background-color: yellowgreen !important;
+}
+
+.caution-bg{
+    background-color: #E9A228 !important;
+}
+
+.danger-bg{
+    background-color: rgb(205, 50, 50) !important;
+}
+
+.regular-bg{
+    background-color: lightgreen !important;
+}
+.editor-bg{
+    background-color: lightskyblue !important;
+}
+.admin-bg{
+    background-color: cornflowerblue !important;
+}
+.root-bg{
+    background-color: gold !important;
+}
+
+/*font colours*/
+.black-txt{
+    color: #000;
+}
+
+.white-txt{
+    color: #fff;
+}
+.primary-txt{  
+    color: #171717;
+
+}
+.white-txt{  
+    color: #fff;
+
+}
+
+.secondary-txt{
+    color: #d9c3f6;
+
+}
+
+.tertiary-txt{
+    color: rgb(87, 139, 190);
+
+}
+.danger-txt{
+    color: rgb(205, 50, 50);;
+}
+
+.alternative-txt{
+    color: rgb(146, 146, 146);
+}
+
+.success-txt{
+    color: yellowgreen;
+}
+.caution-txt{
+    color: rgb(255, 167, 167);
+}
+
+.success-bg{
+    background-color: yellowgreen;
+}
+.caution-bg{
+    background-color: rgb(165, 165, 165);
+}
+.neutral-bg{
+ background-color: rgb(224, 224, 224)   
+}
+
+.normal-theme{
+    background-color: rgb(125, 170, 177);
+    color: white;
+}
+.disabled-theme{
+    background-color: #585858;
+    color: #7b7b7b;
+}
+
+.active-theme{
+    background-color:  yellowgreen;
+    color: white;
+}
+
+.inactive-theme{
+    background-color:#E9A228;
+    color: white;
+}
+
+.deleted-theme{
+    background-color: rgb(125, 170, 177);
+    color: white;
+}
